@@ -4,28 +4,31 @@ import React, { useState } from 'react'
 import Poems from './Poems'
 
 export default function Poetry(verse) {
-    let result = null;
+    // let result = null;
 
-    const [poem, setPoem] = useState("شروع به نوشتن کنید 👆");
+    const [poem, setPoem] = useState("");
     const PoemsJson = Poems
 
     // change input text function
     const changeHandler = (e) => {
         if (e.target.value === '') {
-            setPoem("شروع به نوشتن کنید 👆")
+            setPoem("")
         } else {
             PoemsJson.map((po, index) => {
 
                 if (po.slice(0, 1).includes(e.target.value.slice(-1))) {
                     setPoem(po)
                 }
-            })
+                return poem
+            }
+            )
         }
+
     }
 
     return (
         <div>
-            <h3>6. : {result}</h3>
+            <h3>6. شروع به نوشتن شعر کنید 👇</h3>
             <input onChange={changeHandler} type="text" placeholder="write your poem here.." />
             <p>
                 {poem}
