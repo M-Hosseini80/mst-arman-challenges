@@ -9,7 +9,7 @@ This project is only a beta and personal version
 پروژه های موجود در لینک زیر:
 https://www.projects.mohamadhossein.ir/
 
-صرفا برای به نمایش گذاشتن مهارت و نحوه کد نویسی طراح قرار داده شده اند.
+نیز صرفا برای به نمایش گذاشتن مهارت و نحوه کد نویسی طراح قرار داده شده اند.
 
 
 
