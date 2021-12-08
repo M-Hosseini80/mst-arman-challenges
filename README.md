@@ -12,30 +12,6 @@ https://www.projects.mohamadhossein.ir/
 صرفا برای به نمایش گذاشتن مهارت و نحوه کد نویسی طراح قرار داده شده اند.
 
 
-# whats the mst-arman-challenges?
-mst-arman-challenges is a project which has some diffrence components.
-
-1. Is-balance.js:
-this component shoud return the status of balancing characters, for example:
-if you put [](){} as input, you will get "true", but if you enter []()){}, you will get "false"
-
-2. Get-repeated-info.js:
-your numbers will be converted to object like this:
-if you enter 251 you will see: {2: "22", 5: "55555", 1: "1"}
-
-3. Encoder.js:
-Your words will be encrypted according to the written algorithm.
-
-4. Remove-repetitive.js:
-In this component, duplicate letters are removed in a row, only one letter remains
-
-5. Operations.js:
-Each letter in the text string will perform a specific action on the text
-
-6. Poetry.js
-Poems: Based on the last letter of the sentence you enter, you will see a poem with the final letter of the same sentence (Persian)
-
-
 
 # mst-arman-challenges چیست؟
 mst-arman-challenges پروژه ای است که دارای مولفه های متفاوتی است.
@@ -60,6 +36,31 @@ mst-arman-challenges پروژه ای است که دارای مولفه های م
 
 6. Poetry.js
 اشعار: بر اساس حرف آخر جمله ای که وارد می کنید، شعری با حرف آخر همان جمله (فارسی) خواهید دید. (مشاعره)
+
+
+
+# whats the mst-arman-challenges?
+mst-arman-challenges is a project which has some diffrence components.
+
+1. Is-balance.js:
+this component shoud return the status of balancing characters, for example:
+if you put [](){} as input, you will get "true", but if you enter []()){}, you will get "false"
+
+2. Get-repeated-info.js:
+your numbers will be converted to object like this:
+if you enter 251 you will see: {2: "22", 5: "55555", 1: "1"}
+
+3. Encoder.js:
+Your words will be encrypted according to the written algorithm.
+
+4. Remove-repetitive.js:
+In this component, duplicate letters are removed in a row, only one letter remains
+
+5. Operations.js:
+Each letter in the text string will perform a specific action on the text
+
+6. Poetry.js
+Poems: Based on the last letter of the sentence you enter, you will see a poem with the final letter of the same sentence (Persian)
 
 
 **another projects:**
